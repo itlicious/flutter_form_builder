@@ -195,7 +195,7 @@ class FormBuilderSlider extends FormBuilderField<double> {
                       semanticFormatterCallback: semanticFormatterCallback,
                       onChanged: state.enabled
                           ? (value) {
-                              state.requestFocus();
+                              //state.requestFocus();
                               field.didChange(value);
                             }
                           : null,

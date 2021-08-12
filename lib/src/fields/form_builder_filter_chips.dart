@@ -123,7 +123,7 @@ class FormBuilderFilterChip<T> extends FormBuilderField<List<T>> {
                               } else {
                                 currentValue.remove(option.value);
                               }
-                              state.requestFocus();
+                              //state.requestFocus();
                               field.didChange(currentValue);
                             }
                           : null,

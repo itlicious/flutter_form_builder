@@ -135,7 +135,7 @@ class FormBuilderSwitch extends FormBuilderField<bool> {
                 value: state.value!,
                 onChanged: state.enabled
                     ? (val) {
-                        state.requestFocus();
+                        //state.requestFocus();
                         field.didChange(val);
                       }
                     : null,

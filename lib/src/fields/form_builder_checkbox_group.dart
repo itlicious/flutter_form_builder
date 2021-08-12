@@ -82,7 +82,7 @@ class FormBuilderCheckboxGroup<T> extends FormBuilderField<List<T>> {
                 value: state.value,
                 options: options,
                 onChanged: (val) {
-                  state.requestFocus();
+                  //state.requestFocus();
                   field.didChange(val);
                 },
                 disabled: state.enabled
