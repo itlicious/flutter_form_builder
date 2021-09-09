@@ -311,7 +311,7 @@ class FormBuilderChoiceChip<T> extends FormBuilderField<T> {
                         onSelected: state.enabled
                             ? (selected) {
                                 final choice = selected ? option.value : null;
-                                state.requestFocus();
+                                //state.requestFocus();
                                 state.didChange(choice);
                               }
                             : null,

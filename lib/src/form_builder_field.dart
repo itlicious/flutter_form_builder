@@ -196,7 +196,7 @@ class FormBuilderFieldState<F extends FormBuilderField<T?>, T>
   void invalidate(String errorText) {
     setState(() => _customErrorText = errorText);
     validate(clearCustomError: false);
-    requestFocus();
+    //requestFocus();
   }
 
   InputDecoration get decoration => widget.decoration.copyWith(

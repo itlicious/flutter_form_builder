@@ -100,7 +100,7 @@ class FormBuilderSegmentedControl<T extends Object>
                   padding: padding,
                   unselectedColor: unselectedColor,
                   onValueChanged: (value) {
-                    state.requestFocus();
+                    //state.requestFocus();
                     if (state.enabled) {
                       field.didChange(value);
                     } else {
